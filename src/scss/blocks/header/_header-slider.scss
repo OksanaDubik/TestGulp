@@ -1,0 +1,47 @@
+.header-slider {
+  margin-top: 162px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__article {
+    width: 53%;
+
+    & p {
+      width: 90%;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px;
+    }
+
+    & button {
+      background: var(--active);
+      border-radius: 4px;
+      padding: 0 40px;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 45px;
+      margin-top: 48px;
+    }
+  }
+
+  &__pagination {
+    display: flex;
+    flex-direction: column;
+    margin-right: -30%;
+
+    & img {
+      margin-bottom: 12px;
+    }
+  }
+}
+
+
+h2 {
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+}

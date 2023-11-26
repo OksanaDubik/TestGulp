@@ -1,0 +1,22 @@
+:root{
+  --container-width: 100%;
+  --container-padding: 14%;
+
+  //--font-main: 'Poppins', sans-serif;
+  --font-main: 'Proxima Nova', sans-serif;
+  --font-accent: 'Monsterrat', serif;
+
+  --active: #FF8B00;
+  --page-bg: #fff;
+  --text-color: #fff;
+  --accent: #7050E5;
+
+  --laptop-size: 1199px;
+  --tablet--size: 959px;
+  --mobile-size: 599px;
+}
+
+.dark {
+  --page-bg: #252526;
+  --text-color: #fff;
+}

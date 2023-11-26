@@ -1,0 +1,16 @@
+.header{
+  background: url(../../img/header/HeaderBg.jpg) no-repeat;
+  padding: 80px 0;
+  margin-top: 0;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+
+
+  &__row{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ }
+

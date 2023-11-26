@@ -1,0 +1,21 @@
+
+.header-nav__list {
+  display: flex;
+  justify-content: space-around;
+
+}
+.header-nav__list{
+  font-family: var(--font-main);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+
+  & .active {
+    color: #ffffff;
+    border-bottom: 1px solid #FF8B00;
+  }
+}
+.header-nav__list li{
+  margin-left: 1.75%;
+  white-space: nowrap;
+}
