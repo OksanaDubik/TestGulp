@@ -1,11 +1,36 @@
 .header-slider {
-  margin-top: 162px;
+  margin-top: 125px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 708px) {
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+
+
+  &__twitter {
+    margin-left: -5%;
+    padding-top: 5px;
+    @media (max-width: 375px) {
+      width: 100px;
+    }
+
+  }
+
 
   &__article {
     width: 53%;
+    @media (max-width: 708px) {
+      width: 100%;
+      margin-top: 50px;
+    }
+    @media (max-width: 375px) {
+      margin-top: 65px;
+      margin-left: -32px;
+
+    }
+
 
     & p {
       width: 90%;
@@ -13,35 +38,55 @@
       font-style: normal;
       font-weight: 600;
       line-height: 30px;
+      padding-bottom: 48px;
+      padding-top: 14px;
+      @media (max-width: 375px) {
+        line-height: 20px;
+        padding-bottom: 32px;
+      }
     }
 
-    & button {
-      background: var(--active);
-      border-radius: 4px;
-      padding: 0 40px;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 45px;
-      margin-top: 48px;
-    }
   }
 
   &__pagination {
     display: flex;
     flex-direction: column;
-    margin-right: -30%;
+    margin-right: -24.5%;
+    @media (max-width: 949px) {
+      margin-right: -7.5%;
+    }
+    @media (max-width: 708px) {
+      display: none;
+    }
 
-    & img {
+    & svg {
       margin-bottom: 12px;
+      &:active,&:hover, &:focus {
+        fill: #FF8B00;
+        stroke: #FF8B00;
+      }
+
     }
   }
 }
 
 
-h2 {
+h3 {
+  font-family: var(--font-main);
   font-size: 55px;
   font-style: normal;
   font-weight: 700;
   line-height: 55px;
+  white-space: nowrap;
+  @media (max-width: 708px) {
+    white-space: normal;
+  }
+  @media (max-width: 448px) {
+    font-size: 48px;
+  }
+  @media (max-width: 375px) {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
 }

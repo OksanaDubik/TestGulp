@@ -1,12 +1,13 @@
 /* Nav Icon */
 .mobile-nav-btn {
+  margin-right: 19px;
   --time: 0.1s;
 
-  --width: 40px;
-  --height: 30px;
+  --width: 25px;
+  --height: 32px;
 
-  --line-height: 4px;
-  --spacing: 6px;
+  --line-height: 3px;
+  --spacing: 5px;
 
   --color: #fff;
   --radius: 4px;
@@ -86,7 +87,7 @@
    display: none;
 }
 
- @media (max-width: 1000px) {
+ @media (max-width: 949px) {
  	.mobile-nav-btn {
  		display: block;
  	}
