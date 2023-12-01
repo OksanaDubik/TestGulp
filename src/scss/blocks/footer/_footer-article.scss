@@ -63,9 +63,15 @@
     line-height: 183%;
     text-transform: uppercase;
     color: #ffffff;
+
     @media (max-width: 614px) {
       font-size: 12px;
     }
+  }
+
+
+  & li a:hover, & li:hover{
+       text-shadow: 5px 5px 5px black;
   }
 
   &__addr li {
@@ -96,6 +102,7 @@
     margin-bottom: 16px;
     display: flex;
     padding-right: 10px;
+
 @media (max-width: 448px) {
   font-size: 12px;
   margin-bottom: 6px;

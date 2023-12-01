@@ -9,6 +9,4 @@ function mobileNav() {
         document.body.classList.toggle('no-scroll')
     }
 }
-
-
 export default mobileNav;

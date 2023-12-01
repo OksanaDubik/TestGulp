@@ -8,26 +8,25 @@
   right: 0;
   background: #3b3a3a;;
 
-
   & iframe {
-    width: 84vw;
-    margin: 8vh 8vw;
-    height: 84vh;
+    height: 90%;
   }
 
-  &-close{
+  &-close {
     color: #fff;
     font-size: 50px;
-    margin: 0 0 0 95vw;
     font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 
-    &:hover, &:focus{
-      color: var(--text-descr);
-      text-decoration: none;
-      cursor: pointer;
-    }
+  &:hover, &:focus {
+    color: var(--text-descr);
+    text-decoration: none;
+    cursor: pointer;
   }
+}
 
 
 

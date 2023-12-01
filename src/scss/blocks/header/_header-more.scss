@@ -25,6 +25,15 @@
   }
 
   & button{
-    margin: 16px 27px -30px 15px;
+    margin: 16px 15px -30px 15px;
+
   }
+  & svg:hover{
+    fill: var(--hover);
+    text-shadow: 5px 5px 5px black;
+  }
+  & svg path:hover{
+    fill: var(--hover);
+      }
+
 }

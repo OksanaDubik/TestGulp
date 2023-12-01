@@ -3,7 +3,6 @@
   justify-content: space-between;
   padding: 97px 10% 97px;
   align-items: center;
-
   @media (max-width: 767px) {
     padding: 59px 0 97px;
     align-items: center;
@@ -14,13 +13,12 @@
     width: 35%;
     text-align: left;
     margin-top: -6px;
-@media (max-width: 767px) {
-  width: 80%;
-}
+    @media (max-width: 767px) {
+      width: 80%;
+    }
     @media (max-width: 375px) {
       margin-top: -11px;
       margin-left: -30px;
-
     }
 
     & h4 {
@@ -44,7 +42,6 @@
       letter-spacing: -0.3px;
       color: var(--text-descr);
       padding: 8px 0 37px 0;
-
     }
 
     &__button {
@@ -60,7 +57,6 @@
         margin-left: 77px;
       }
     }
-
   }
 }
 

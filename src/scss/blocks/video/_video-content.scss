@@ -19,7 +19,6 @@
     margin-left: -12px;
     height: 196px;
     margin-bottom: 83px;
-
   }
 
   & h3 {
@@ -59,12 +58,10 @@
       padding: 69px 19px 3px 22px;
       width: 28%;
       margin-bottom: 23px;
-
       @media (max-width: 448px) {
         width: 50%;
         padding: 100px 19px 0 22px;
       }
-
 
       & img {
         @media (max-width: 448px) {
@@ -73,7 +70,5 @@
       }
     }
   }
-
-
 }
 

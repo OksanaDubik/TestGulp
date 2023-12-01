@@ -19,8 +19,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: 72px;
-
-
     @media (max-width: 448px) {
       padding: 17px 6% 0 0;
       font-size: 34px;
@@ -83,7 +81,6 @@
       }
     }
 
-
     &-big {
       @media screen, (max-width: 375px) {
         width: 65%;
@@ -95,8 +92,5 @@
         width: 35%;
       }
     }
-
-
   }
-
 }

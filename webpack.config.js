@@ -1,19 +1,14 @@
 NodePolyfillPlugin = require("node-polyfill-webpack-plugin")
 const config = {
 
-
-
-
     mode: 'production',
     entry: {
         index: './src/js/index.js',
-        // contacts: './src/js/contacts.js',
-        // about: './src/js/about.js',
     },
     output: {
         filename: '[name].bundle.js',
     },
-    module:{
+    module: {
         rules: [
             {
                 test: /\.css$/,
@@ -31,7 +26,6 @@ const config = {
             "path": require.resolve("path-browserify")
         }
     },
-
 
 };
 

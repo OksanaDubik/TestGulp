@@ -56,7 +56,6 @@ function startCheck(results) {
 }
 
 function validateForm() {
-
     mainForm.addEventListener("submit", function (event) {
         event.preventDefault()
 
