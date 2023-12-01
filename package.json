@@ -22,6 +22,9 @@
     "gulp-webp": "^4.0.1",
     "gulp-webp-css": "^1.1.0",
     "gulp-webp-html": "^1.0.2",
+    "node-libs-browser": "^2.2.1",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "path-browserify": "^1.0.1",
     "sass": "^1.69.5",
     "style-loader": "^3.3.3",
     "webpack-stream": "^7.0.0"

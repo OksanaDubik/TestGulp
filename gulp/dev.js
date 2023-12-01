@@ -50,7 +50,8 @@ gulp.task('html:dev', function () {
 
 //формирование block scss, обновление папки build, plumberSassConfig-фиксирование ошибок
 gulp.task('sass:dev', function () {
-    return gulp
+    return (
+        gulp
         .src('./src/scss/*.scss')
         .pipe(changed('./build/css'))
         .pipe(plumber(plumberNotify('SCSS')))
@@ -59,7 +60,8 @@ gulp.task('sass:dev', function () {
         .pipe(sass())
         .pipe(sourceMaps.write())
         .pipe(gulp.dest('./build/css/'))
-})
+    );
+});
 
 //обновление папки build img
 const DESTINATION = './build/img/';
@@ -104,7 +106,7 @@ const serverOptions = {
 gulp.task('server:dev', function () {
     return gulp.src('./build/')
         .pipe(server(serverOptions))
-})
+});
 
 //слежение за файлом при обновлении - пересборка
 gulp.task('watch:dev', function () {
@@ -115,5 +117,5 @@ gulp.task('watch:dev', function () {
     gulp.watch('./src/files/**/*', gulp.parallel('files:dev'))
     gulp.watch('./src/js/**/*.js', gulp.parallel('js:dev'))
 
-})
+});
 
